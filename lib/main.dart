@@ -2,9 +2,10 @@
 
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:todo/page/Homescreen.dart';
 
-import 'Database/database.dart';
+
+import 'Database/data_base.dart';
+import 'page/home_screen.dart';
 
 Future<void> main() async {
   //initilize hive

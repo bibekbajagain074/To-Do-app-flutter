@@ -2,9 +2,9 @@
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
-import 'package:todo/Database/database.dart';
-import 'package:todo/utility/dialogbox.dart';
-import 'package:todo/utility/todo-tile.dart';
+import 'package:todo/Database/data_base.dart';
+import 'package:todo/utility/dialog_box.dart';
+import 'package:todo/utility/todo_tile.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
